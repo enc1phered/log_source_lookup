@@ -17,8 +17,7 @@ techniques_model_path = "source/techniques_to_events_mapping.json"
 with open(techniques_model_path, "r") as f:
     techniques_model = json.load(f)
 
-#print(json.dumps(techniques_model, indent = 2))
-#print out data of interest (technique_id, technique, tactic[], platform[], event_id = table)
+# parse data of interest
 for technique in techniques_model:
     if technique["log_source"] == "Microsoft Defender for Endpoint":
         parsed_techniques = {
@@ -31,12 +30,8 @@ for technique in techniques_model:
             "log_source": technique["log_source"],
             "table_filter": technique["filter_in"]
             }
-        #print(parsed_techniques)
         parsed_output.append(parsed_techniques)
-#print(parsed_output)
-    #if args.Platform:
-    
-#print(json.dumps(parsed_output, indent=2))
+
 with open(output_json, "w") as f:
     json.dump(parsed_output, f, indent=2)
 
