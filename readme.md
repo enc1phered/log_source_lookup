@@ -8,7 +8,7 @@ Signal Trace is designed to cut through the noise of security logging. It produc
 * **Data Source Mapping:** Automatically map Microsoft Defender for Endpoint (MDE) and Defender XDR data tables to specific MITRE ATT&CK techniques.
 * **Rapid Identification:** Provide a searchable, filterable index to help analysts quickly identify the tables of interest for a given attack vector.
 * **Gap Prioritization (Roadmap):** Implement logic to highlight coverage gaps based on industry verticals (e.g., Finance, Defense, Hospitality), tying specific log gaps to sector-specific threat objectives.
-* **Navigator Integration:** Overlay table coverage information directly onto MITRE ATT&CK Navigator layers.
+* **Navigator Integration (Roadmap):** Overlay table coverage information directly onto MITRE ATT&CK Navigator layers.
 
 ## 📚 Data Sources & Credits
 This project leverages the following community-driven data models for its logic:
