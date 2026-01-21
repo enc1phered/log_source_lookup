@@ -319,7 +319,7 @@ with open("table.html", "w") as f:
     </div>
 
     <div class="legal-footer">
-        <p>© 2024 The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.</p>
+        <p>© 2026 The MITRE Corporation. This work is reproduced and distributed with the permission of The MITRE Corporation.</p>
         <p>Comparison data provided by the OSSEM Project.</p>
     </div>
 </div>
